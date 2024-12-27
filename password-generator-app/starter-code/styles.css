@@ -1,0 +1,164 @@
+@font-face {
+    font-family: JetsBrainItalicVariable;
+    src: url(assets/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: JetsBrainItalicVariable;
+    src: url(assets/fonts/JetBrainsMono-VariableFont_wght.ttf);
+}
+
+* {
+    margin:0;
+    padding:0;
+    background-color: rgb(24, 23, 31);
+    color: white;
+    font-family: JetsBrainItalicVariable;
+}
+
+.wrapper{
+    margin-top:8rem;
+    width: 540px;
+    height: 695px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    margin-bottom:2rem;
+    color:rgb(128, 124, 146);
+}
+
+.password{
+    width: 540px;
+    height: 80px;
+    background-color: rgb(36, 35, 44);
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    justify-content: space-evenly;
+    gap:15rem;
+    margin-bottom: 1.5rem;
+}
+
+.passwordLength{
+    font-size: 32px;
+    color: rgb(164, 255, 175);
+}
+
+.password_output{
+
+    background-color: rgb(36, 35, 44);
+}
+
+.main_container{
+    width: 540px;
+    height: 528px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(36, 35, 44);
+}
+
+.container{
+    margin:2rem;
+    margin-top:1.5rem;
+    font-size: 18px;
+    background-color: rgb(36, 35, 44);
+}
+
+.characterLength{
+    background-color: rgb(36, 35, 44);
+}
+.character_container{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:1rem;
+    background-color: rgb(36, 35, 44);
+}
+
+.slider{
+    width: 476px;
+    margin-bottom: 1rem;
+    background-color: rgb(36, 35, 44);
+}
+
+.checkbox_wrapper{
+    margin-bottom: 1rem;
+    margin-left:rem;
+    background-color: rgb(36, 35, 44);
+}
+
+label{
+    background-color: rgb(36, 35, 44);
+
+}
+
+input[type=checkbox] {
+    transform: scale(1.2);
+}
+
+.chk {
+    background-color: #990000;
+}
+
+ label{
+    margin-left: 1rem;
+}
+
+ .strength_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:2rem;
+}
+
+.strength_title{
+    margin-left:1rem;
+    color:rgb(128, 124, 146)
+}
+
+.strength_level{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    gap:0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.strength_icon{
+    align-items: center;
+    width:10px;
+    height:28px;
+    background-color: rgb(251, 124, 88);
+    border: 0.5px transparent rgb(230, 229, 234);
+}
+
+.level{
+    margin-right: 1rem;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 476px;
+    height: 65px;
+    font-size:18px;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(164, 255, 175);
+    color:black
+}
+
+button:hover{
+    background-color: rgb(148, 191, 152);
+}
