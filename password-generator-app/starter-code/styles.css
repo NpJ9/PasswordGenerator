@@ -40,18 +40,24 @@
     display: flex;
     align-items: center;
     font-size: 32px;
-    justify-content: space-evenly;
-    gap:15rem;
+    justify-content: space-between;
     margin-bottom: 1.5rem;
 }
 
+.passwordLength{
+    background-color: rgb(36, 35, 44);
+}
+.svg{
+    translate: -70%;
+    background-color: rgb(36, 35, 44);
+}
 .passwordLength{
     font-size: 32px;
     color: rgb(164, 255, 175);
 }
 
 .password_output{
-
+    margin-left:2rem;
     background-color: rgb(36, 35, 44);
 }
 
@@ -137,7 +143,7 @@ input[type=checkbox] {
     align-items: center;
     width:10px;
     height:28px;
-    background-color: rgb(251, 124, 88);
+    background-color: rgb(255, 255, 255);
     border: 0.5px transparent rgb(230, 229, 234);
 }
 
@@ -145,7 +151,7 @@ input[type=checkbox] {
     margin-right: 1rem;
 }
 
-button{
+.generate{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,6 +165,20 @@ button{
     color:black
 }
 
-button:hover{
+
+
+.generate:hover{
     background-color: rgb(148, 191, 152);
+}
+
+.svgBtn{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    translate: -75%;
+    
 }
